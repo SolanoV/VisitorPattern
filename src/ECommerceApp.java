@@ -12,7 +12,6 @@ public class ECommerceApp {
     public static void main(String[] args) {
         List<Furniture> shoppingCart = new ArrayList<>();
         shoppingCart.add(new Chair(12.5));
-        shoppingCart.add(new Chair(10.0));
         shoppingCart.add(new Table(6.0, 3.5));
         shoppingCart.add(new Sofa(200.0, 25.0));
 
